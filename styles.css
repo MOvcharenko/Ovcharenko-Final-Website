@@ -55,9 +55,9 @@ button {
     margin-left: 10px;
 }
 
-/* Hero Section */
+
 .hero {
-    text-align: center;
+    text-align: start;
     padding: 50px;
     font-size: 32px;
     font-weight: bold;
@@ -81,8 +81,9 @@ button {
     width: 250px;
 }
 
-/* Footer */
-footer {
+/* /Featured Games & Reviews */
+
+.footer {
     background: #F2F2F2;
     padding: 20px;
     text-align: center;
