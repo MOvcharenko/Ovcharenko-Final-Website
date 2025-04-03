@@ -13,6 +13,7 @@ body {
 /* Navigation */
 .navbar {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
@@ -84,7 +85,6 @@ button {
 /* /Featured Games & Reviews */
 
 .footer {
-    background: #F2F2F2;
     padding: 20px;
     text-align: center;
     display: flex;
@@ -92,6 +92,7 @@ button {
 }
 
 .footer-content, .social-media {
+    background: #F2F2F2;
     display: flex;
     gap: 20px;
 }
@@ -103,17 +104,17 @@ button {
 }
 
 /* Responsive Design */
-@media (max-width: 743px) {
+@media (min-width: 743px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
     .nav-links {
-        flex-direction: column;
+        flex-direction: row;
         text-align: center;
     }
     .game-container, .review-container {
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
     }
 }
