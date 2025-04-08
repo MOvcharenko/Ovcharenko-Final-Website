@@ -68,21 +68,43 @@ button:hover {
     transition: background-color 0.3s ease;
 }
 
+.nav-dropdown {
+    position: relative;
+  }
+
 .nav-dropdown[open] {
-    max-height: 500px; 
     animation: expandDropdown 0.4s ease-out;
     z-index: 11;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #222;
+    padding: 10px;
   }
+
+.nav-dropdown[open] summary {
+    order: -1;
+    background: #222;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    z-index: 12;
+    position: relative;
+}
 
 .nav-dropdown[open] .nav-links {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
     gap: 10px;
     padding-top: 10px;
     animation: fadeInLinks 0.3s ease-out;
-  }
+}
 
-  .nav-dropdown[open] ~ .nav-actions {
+.nav-dropdown[open] ~ .nav-actions {
     display: none;
   }
 
