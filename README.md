@@ -1,6 +1,7 @@
 **Keywords:**
-Primary: buy video games online, digital game store, download PC games
-Secondary: cyberpunk 2077 bundle, 
+Primary: buy video games online, digital game store, download PC games.
+
+Secondary: cyberpunk 2077 bundle, best video game sales, indie game store, best PC RPGs 2025, download retro games, where can i buy pc games.
 
 
 **Research Images:**
