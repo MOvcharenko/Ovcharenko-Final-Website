@@ -88,7 +88,7 @@ button:hover {
     background: #222;
     color: white;
     padding: 10px;
-    font-size: 1.2rem;
+    
     cursor: pointer;
     z-index: 12;
     position: relative;
