@@ -1,0 +1,49 @@
+[
+    {
+      "id": 1,
+      "title": "Prey (2017)",
+      "price": 14.99,
+      "imageUrl": "images/preyimage.png",
+      "review": "Innovative gameplay... outstanding!"
+    },
+    {
+      "id": 2,
+      "title": "Cyberpunk 2077",
+      "price": 39.99,
+      "imageUrl": "images/cyberpunkimage.png",
+      "review": "Dazzling visuals, immersive world... absolutely epic!"
+    },
+    {
+      "id": 3,
+      "title": "Balatro",
+      "price": 23.99,
+      "imageUrl": "images/balatroimage.png",
+      "review": "Fresh narrative, engaging fun... a must!"
+    },
+    {
+      "id": 4,
+      "title": "Hitman",
+      "price": 34.99,
+      "imageUrl": "images/hitmanimage.png",
+      "review": "Utterly satisfying strategic assassinations."
+    },
+    {
+      "id": 5,
+      "title": "The Binding of Isaac",
+      "price": 14.99,
+      "imageUrl": "images/isaacimage.png"
+    },
+    {
+      "id": 6,
+      "title": "Slay the Spire",
+      "price": 24.99,
+      "imageUrl": "images/slayimage.png"
+    },
+    {
+      "id": 7,
+      "title": "Disco Elysium",
+      "price": 39.99,
+      "imageUrl": "images/discoimage.png"
+    }
+]
+  

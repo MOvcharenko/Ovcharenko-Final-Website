@@ -190,7 +190,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /*align-items: center; */
     background: #00AEEF;
     padding: 0px;
     border-radius: 20px;
@@ -200,7 +200,7 @@ button:hover {
 }
 
 .review-card {
-    min-height: 352px;
+    height: 352px;
     font-weight: bold;
     font-style: italic;
 }
@@ -214,11 +214,28 @@ button:hover {
 }
 
 .review-text {
-    flex-grow: 1;
     display: flex;
-    align-items: center;    
-    justify-content: center; 
     padding: 20px;
+    margin: auto 0;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.review-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: top;
+    border-radius: 20px 20px 0 0;
+}
+
+.review-text-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    height: calc(352px - 200px);
+    box-sizing: border-box;
 }
 
 /* FOOTER */
